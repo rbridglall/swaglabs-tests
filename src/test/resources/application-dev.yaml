@@ -1,0 +1,11 @@
+swaglab-url: https://www.saucedemo.com
+
+users:
+  standard_user:
+    username: standard_user
+    password: secret_sauce
+
+driver:
+  os: windows
+  mac: src/test/resources/driver/mac/chromedriver
+  windows: src/test/resources/driver/windows/chromedriver.exe
