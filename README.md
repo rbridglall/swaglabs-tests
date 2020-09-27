@@ -23,3 +23,5 @@ To run on a Mac run the command:
 ```java
 mvn -Ddriver.os=mac clean test
 ```
+
+Once the run is complete a HTML report(index.html) will be generated in the target folder
