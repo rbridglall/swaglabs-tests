@@ -12,13 +12,13 @@ The Webdriver instance is created as a Spring Bean at the start of the test case
 
 ## Usage
 
-Clone the repository and from the root run:
+To run on a Windows machine run the command:
 
 ```java
 mvn clean test
 ```
 
-The driver instance that is used is set to windows by default. If you are running from a Mac run:
+To run on a Mac run the command:
 
 ```java
 mvn -Ddriver.os=mac clean test
