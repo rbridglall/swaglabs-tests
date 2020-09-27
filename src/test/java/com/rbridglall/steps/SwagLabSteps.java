@@ -27,7 +27,7 @@ import static org.assertj.core.api.Assertions.assertThat;
 @EnableConfigurationProperties(value = Env.class)
 @AllArgsConstructor
 @DirtiesContext
-public class SwagLagSteps {
+public class SwagLabSteps {
 
     private WebDriver driver;
     private Env env;
