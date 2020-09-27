@@ -16,8 +16,10 @@ Clone the repository and from the root run:
 
 ```java
 mvn clean test
+```
 
 The driver instance that is used is set to windows by default. If you are running from a Mac run:
 
 ```java
 mvn -Ddriver.os=mac clean test
+```
